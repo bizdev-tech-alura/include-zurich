@@ -1,0 +1,523 @@
+@import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1680px;
+  margin: 30px auto;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #324b9c;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+.link-menu {
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: #324b9c;
+}
+
+.cartoes {
+  width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px auto;
+}
+
+.cartao {
+  width: 360px; /* não alterar */
+  height: 520px; /* não alterar */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Vanessa */
+#vanessaFernandes {
+  background-image: url("imagens-vanessa/bg-Vanessa.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.titulo__vanessa,
+.subtitulo__vanessa {
+  font-family: "Salsa", sans-serif;
+  text-align: center;
+  color: #ffd487;
+}
+
+.titulo__vanessa {
+  font-size: 25px;
+}
+
+.subtitulo__vanessa {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.links__vanessa {
+  display: flex;
+  gap: 12px;
+}
+
+.links__vanessa img {
+  transition: 0.6s;
+}
+
+.links__vanessa img:hover {
+  transform: scale(1.2);
+}
+
+/* Carol */
+
+#CarolineSimao {
+  background-image: url("imagens-carol/fundo.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imagem__perfil {
+  width: 180px; /* não alterar para maior do que 360px */
+  border-radius: 50%;
+}
+
+.titulo__carol {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #000000;
+}
+.resumo {
+  font-family: "Dosis";
+  text-align: center;
+  color: #5f0000;
+  font-size: 17px;
+  font-weight: 560;
+}
+
+.titulo__carol {
+  font-size: 25px;
+}
+
+.links__Carol {
+  display: flex;
+  gap: 12px;
+}
+
+.imagem_logo {
+  display: flex;
+  gap: 20px;
+  width: 35px;
+}
+.apresentacao__links {
+  text-decoration: none;
+  color: transparent;
+  display: inline-block;
+}
+
+/* Beatriz */
+#beatrizCampos {
+  background-image: url("./imagens-beatriz/fundo-devboard.jpg");
+  background-size: 600px auto;
+  background-repeat: no-repeat;
+}
+
+.fotinha_beatriz {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.titulo_bea {
+  font-size: 24px;
+  font-family: "Grape Nuts", cursive;
+  justify-content: center;
+  text-align: center;
+  color: rgb(37, 56, 2);
+}
+
+.textinhos_bea {
+  font-size: 18px;
+  font-family: "Grape Nuts", cursive;
+  color: rgb(59, 88, 5);
+  justify-content: center;
+  text-align: center;
+}
+
+.linkedIn_logo:hover {
+  height: 70px;
+}
+
+/* Milena */
+#milenaEmmert {
+  background-image: url("imagens-milena/bg-Milena.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imagem__perfil {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.titulo__milena,
+.subtitulo__milena {
+  font-family: "Sen", sans-serif;
+  text-align: center;
+}
+
+.titulo__milena {
+  font-size: 20px;
+  margin: 16px 0;
+}
+
+.subtitulo__milena {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.links__milena {
+  display: flex;
+  gap: 12px;
+}
+
+.links__milena img {
+  transition: 0.6s;
+}
+
+.links__milena img:hover {
+  transform: scale(1.2);
+}
+
+#nahGermuts {
+  background-image: url("imagens-nadja/img-fundo.jpg"); /* altere com outra imagem ou cor */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imagem__perfil {
+  width: 150px; /* não alterar para maior do que 360px */
+  border-radius: 50%;
+}
+
+.titulo__nadja,
+.subtitulo__nadja {
+  font-family: "Sen", sans-serif; /* use a fonte que preferir, mas lembre de importá-la na linha 1*/
+  text-align: center;
+}
+
+.titulo__nadja {
+  font-size: 20px;
+}
+
+.subtitulo__nadja {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.links__nadja {
+  display: flex;
+  gap: 12px;
+}
+
+.links__nadja img {
+  transition: 0.6s;
+}
+
+.links__nadja img:hover {
+  transform: scale(1.2);
+}
+
+#edsonMoreira {
+  background-image: url("imagens-edson/bg-Edson1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imagem__perfil {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.titulo__edson,
+.subtitulo__edson {
+  font-family: "Sen", sans-serif;
+  text-align: center;
+}
+
+.titulo__edson {
+  font-size: 20px;
+}
+
+.subtitulo__edson {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.links__edson {
+  display: flex;
+  gap: 12px;
+}
+
+.links__edson img {
+  width: 60px;
+  transition: 0.6s;
+}
+
+.links__edson img:hover {
+  transform: scale(1.2);
+}
+
+#josePereira {
+  background-image: url("https://josepe92.github.io/ZURICH-CARTAO-INCLUITECH/foto-fundo-Jose.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Lora", serif;
+}
+
+.imagem__perfil-josePereira {
+  width: 90px;
+  border-radius: 50%;
+}
+
+.titulo__josePereira,
+.subtitulo__josePereira {
+  font-family: "Lora", serif;
+  text-align: center;
+}
+
+.titulo__josePereira {
+  font-size: 20px;
+}
+
+.subtitulo__josePereira {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 14px 0;
+}
+
+.links__josePereira {
+  display: flex;
+  gap: 12px;
+}
+
+.links__josePereira img {
+  transition: 0.6s;
+}
+
+.links__josePereira img:hover {
+  transform: scale(1.2);
+}
+
+#aliceCavalcante {
+  background-image: url("imagens-alice/bg-Alice.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.profile_image {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.title_alice,
+.subtitle_alice {
+  font-family: "Sen", sans-serif;
+  text-align: center;
+}
+
+.title_alice {
+  font-size: 20px;
+}
+
+.subtitle_alice {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.links_alice {
+  display: flex;
+  gap: 12px;
+}
+
+.links_alice img {
+  transition: 0.6s;
+}
+
+.links_alice img:hover {
+  transform: scale(1.2);
+}
+
+#folders {
+  width: 25px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Protest+Revolution&display=swap");
+.cartao {
+  width: 360px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#rodrigoCarneiro {
+  background-image: url("imagens-rodrigo/14960493_5532919.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.imagem__perfil {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.titulo__rodrigo,
+.subtitulo__rodrigo {
+  font-family: "Advertência", cursive;
+  text-align: center;
+}
+
+.titulo__rodrigo {
+  font-size: 20px;
+  margin: 16px 0;
+}
+
+.subtitulo__rodrigo {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 16px 0;
+}
+
+.links__rodrigo {
+  display: flex;
+  gap: 12px;
+}
+
+.links__rodrigo img {
+  transition: 0.6s;
+  background-color: white;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.links__rodrigo img:hover {
+  transform: scale(1.2);
+}
+
+#janainaJesus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: radial-gradient(
+    329px at 3.1% 9.3%,
+    rgb(251, 204, 235) 28.1%,
+    rgba(221, 221, 221, 0.15) 100.7%
+  );
+  background-size: 500px 600px;
+}
+
+#janainaJesus .foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#janainaJesus .titulo {
+  font-size: 36px;
+  text-align: center;
+  color: rgb(15, 0, 73);
+}
+
+#janainaJesus .texto {
+  font-size: 18px;
+  color: rgb(15, 0, 73);
+  text-align: center;
+}
+
+#janainaJesus .apresentacao__links__redes__grupo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  padding: 10px 0;
+  text-decoration: none;
+}
+
+#jessicasilva {
+  background-image: url("imagens-jessica/bg-Jessica.jpg"); /* altere com outra imagem ou cor */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.titulo__jessica,
+.subtitulo__jessica {
+  font-family: "Gowun Batang", serif;
+  text-align: center;
+}
+
+.titulo__jessica {
+  font-size: 20px;
+}
+
+.subtitulo__jessica {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.links__jessica {
+  display: flex;
+  gap: 12px;
+}
+
+.links__jessica img {
+  transition: 0.6s;
+}
+
+.links__jessica img:hover {
+  transform: scale(1.2);
+}
+
+.icone-tema {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.icone-tema-ativo {
+  background-color: #324b9c;
+}
+
+.icone-tema-inativo {
+  background-color: #b0b0b0;
+}
+
+.body-escuro {
+  background-color: #121212;
+}
+
+.body-claro {
+  background-color: #ffffff;
+}
